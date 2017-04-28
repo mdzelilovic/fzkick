@@ -1,0 +1,35 @@
+
+/*index logo image*/
+#logos{
+    margin-left: 10.5em;
+ margin-top: 3em;
+    position: absolute;
+    opacity: 1;  
+}
+
+#logos img{
+    width: 600px;
+    height: 150px;
+}
+
+/*index box images*/
+#box1 img{
+    opacity: 0.9;
+    width: 60%; 
+}
+
+#box2 img{
+    opacity: 0.9;
+    width: 25%;
+}
+
+#box3 img{
+    opacity: 0.9;
+    width: 40%; 
+}
+
+#box4 img{
+    margin-left: 2em;
+    opacity: 0.9;
+    width: 40%;  
+}

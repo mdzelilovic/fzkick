@@ -1,0 +1,85 @@
+
+/*Formular für die Registrierung*/
+#formular{
+    position: relative;
+    width: 30%;
+    font-size: 1.2em;   
+    margin-left: 35%;
+    margin-top: 8em;
+    margin-bottom: 12em;
+    
+
+}
+
+#formular fieldset{
+    background-color: #FFFBCC;
+    margin: auto;
+    color: #003399;
+    border-radius: 24px;
+}
+
+#formular p{
+    margin-top: 2em;
+     margin-left: 25%;
+}
+
+#formular input{
+    position: absolute;
+   display: block;
+   font-size: 1em;
+   z-index: 9999;
+}
+
+#formular button{
+    margin-top: 2em;
+  margin-left: 7em;
+  margin-bottom: 2em;
+}
+
+
+/*Login Formular*/
+
+#formular_login{
+    width: 30%;
+    font-size: 1.2em;
+    background-color: #330000;
+    color: #56d5dd;
+    margin: auto;
+}
+
+#formular_login input{   
+    display: block;
+    width: 15em;
+}
+
+#formular_login p{
+    margin-left: 10em;
+}
+
+#login_submit{
+    margin-left: 34%;
+}
+
+#formular_login a{
+    font-size: 1em;
+    color: blue;
+    text-decoration: underline;
+}
+
+
+/*Textarea von user_enter_activity*/
+#ausruestung{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    width: 20em;
+    height: 5em;
+}
+
+#sonstiges{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    width: 20em;
+    height: 5em;
+}

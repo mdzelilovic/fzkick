@@ -1,0 +1,34 @@
+@import url("css/formulare.css");
+@import url("css/layout.css");
+@import url("css/listen.css");
+@import url("css/schrift.css");
+@import url("css/tabellen.css");
+@import url("css/images.css");
+@import url("css/links.css");
+
+
+#wrapper{
+  height: auto;
+    width: 100%; 
+    overflow: hidden;
+    background-image: url("photos/background.png");
+}
+
+#wrapper:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.clear:before,
+.clear:after{
+    content: " ";
+    display: table;
+}
+
+.clear:after{
+    clear: both;
+}
+.clear_all{
+    clear:both;
+}

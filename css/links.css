@@ -1,0 +1,32 @@
+#navigation_kopfzeile_index a{
+    text-decoration: none;
+    color: black;
+}
+
+#navigation_kopfzeile_index a:hover{
+    text-decoration: underline;
+}
+
+/*Userpage Link Button zu search oder create*/
+
+.enteractivity{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("../photos/enter_activity.png");
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-position: center;   
+}
+
+.search_activity{
+    text-decoration: none;
+    display: block;
+    font-size: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../photos/search_activity.png");
+    background-repeat: no-repeat;
+    background-position: center;   
+}

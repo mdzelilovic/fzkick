@@ -1,0 +1,139 @@
+#kopfzeile{
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+
+
+/*main of index */
+#main{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;  
+    overflow: auto;
+    border: 1px solid black;
+}
+
+/*boxen von index seite*/
+#box1{  
+    margin-left: 15em;
+    margin-top: 3em;
+    float: left;
+    width: 15%;
+    height: 20%;
+    color: #330000;
+}
+
+#box2{
+    margin-left: 5em;
+    margin-top: 4.2em;
+    float: left;
+    width: 15%;
+    height: 20%;
+    color: #330000; 
+}
+
+#box3{
+    margin-left: 5em;
+    margin-top: 3em;
+    float: left;
+    width: 15%;
+    height: 20%;
+    color: #330000; 
+}
+
+#box4{
+    margin-left: 5em;
+    margin-top: 3em;
+    float: left;
+    width: 15%;
+    height: 20%;
+    color: #330000; 
+}
+
+/*Userpage eigene Kopfzeile*/
+#kopfzeile_userpage{
+    width: 100%;
+    height: 10%;  
+    background-color: #330000;
+}
+
+#kopfzeile_userpage span{
+    float: right;
+   margin-right: 1em; 
+}
+
+/*Userpage auswahl zwischen create und search*/
+#auswahl{
+
+    overflow:hidden;
+    width: 100%;
+height: auto;
+
+    margin-top: 10%;
+    border: 1px solid black;
+}
+
+#auswahl1{
+    float: left;
+    margin-left: 4em;
+    margin-right: 4em;
+    border: 1px solid #cdbd9b;
+    width: 40%;
+    height: 400px;
+    background-color: #cdbd9b;
+    -webkit-box-shadow:inset 0px 0px 0px 10px white;
+    -moz-box-shadow:inset 0px 0px 0px 10px white;
+    box-shadow:inset 0px 0px 0px 10px white;
+}
+
+#auswahl1:hover{
+    border: 4px solid #cdbd9b;
+}
+
+#auswahl2{
+    float: left;
+    border: 1px solid #cdbd9b;
+    width: 40%;
+    height: 400px;
+    background-color: #cdbd9b;
+    -webkit-box-shadow:inset 0px 0px 0px 10px white;
+    -moz-box-shadow:inset 0px 0px 0px 10px white;
+    box-shadow:inset 0px 0px 0px 10px white;
+    
+}
+
+#auswahl2:hover{
+    border: 4px solid #cdbd9b;
+}
+
+/*background für registrierungsform*/
+/*
+#background_register{
+    position: absolute;
+    background-image: url("../photos/register_background.jpg");
+    opacity: 0.4;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1400px;
+} */
+
+/*Indexbuttons suchen/registrieren */
+
+.indexbuttons{
+margin-top: 8em;
+margin-left: 30%;
+}
+
+
+
+/*Boxen container index*/
+
+#box_index_container{
+    width: 100%;
+    background-color: white;
+}
